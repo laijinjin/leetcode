@@ -63,7 +63,7 @@ class Solution:
                     if a-target in d:
                         ans +=d[a-target]
                     if a in d:
-                        d[a] += 1
+                        d[a] += 130
                     else:
                         d[a] =1
         return ans
